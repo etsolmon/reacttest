@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/etsolmon/reacttest.git/static/css/main.befa9ec1.chunk.css",
+    "main.js": "/etsolmon/reacttest.git/static/js/main.5351d3f4.chunk.js",
+    "main.js.map": "/etsolmon/reacttest.git/static/js/main.5351d3f4.chunk.js.map",
+    "runtime-main.js": "/etsolmon/reacttest.git/static/js/runtime-main.a84d5384.js",
+    "runtime-main.js.map": "/etsolmon/reacttest.git/static/js/runtime-main.a84d5384.js.map",
+    "static/js/2.f0e5c78e.chunk.js": "/etsolmon/reacttest.git/static/js/2.f0e5c78e.chunk.js",
+    "static/js/2.f0e5c78e.chunk.js.map": "/etsolmon/reacttest.git/static/js/2.f0e5c78e.chunk.js.map",
+    "index.html": "/etsolmon/reacttest.git/index.html",
+    "static/css/main.befa9ec1.chunk.css.map": "/etsolmon/reacttest.git/static/css/main.befa9ec1.chunk.css.map",
+    "static/js/2.f0e5c78e.chunk.js.LICENSE.txt": "/etsolmon/reacttest.git/static/js/2.f0e5c78e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a84d5384.js",
+    "static/js/2.f0e5c78e.chunk.js",
+    "static/css/main.befa9ec1.chunk.css",
+    "static/js/main.5351d3f4.chunk.js"
+  ]
+}
