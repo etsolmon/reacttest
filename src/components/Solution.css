@@ -1,0 +1,33 @@
+.testrow {
+  display: flex;  
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Create two unequal columns that floats next to each other */
+.testcolumn {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fafafa;
+}
+
+.testleft {
+  background-color: aqua;
+  width: 25%;
+}
+
+.testright {
+  width: 25%;
+  background-color: blueviolet;
+}
+
+
+/* Clear floats after the columns */
+.testrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}

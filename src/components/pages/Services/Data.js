@@ -2,14 +2,14 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Cargo Delivery',
-  headline: 'Хүргэлтийн үйлчилгээг бидэнд даатга',
+  topLine: 'Exclusive Access',
+  headline: 'Unlimited Transactions with zero fees',
   description:
-    'Бид бизнес эрхлэгч, аж ахуй нэгж, байгууллага болон хувь хүмүүст зориулан хамгийн шуурхай, найдвартай захиалгат хүргэлтийн цогц үйлчилгээг санал болгож байна.',
+    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
   buttonLabel: 'Get Started',
   imgStart: '',
-  img: 'images/home-1.png',
-  alt: 'Cargo-delivery'
+  img: 'images/svg-1.svg',
+  alt: 'Credit Card'
 };
 
 export const homeObjTwo = {

@@ -1,15 +1,15 @@
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Cargo Delivery',
-  headline: 'Хүргэлтийн үйлчилгээг бидэнд даатга',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'VIEW OUR PRODUCTS',
+  headline: 'Shop through our catalog of products',
   description:
-    'Бид бизнес эрхлэгч, аж ахуй нэгж, байгууллага болон хувь хүмүүст зориулан хамгийн шуурхай, найдвартай захиалгат хүргэлтийн цогц үйлчилгээг санал болгож байна.',
-  buttonLabel: 'Get Started',
+    'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
+  buttonLabel: 'Shop Now',
   imgStart: '',
-  img: 'images/home-1.png',
-  alt: 'Cargo-delivery'
+  img: 'images/svg-4.svg',
+  alt: 'Credit Card'
 };
 
 export const homeObjTwo = {
