@@ -1,33 +1,23 @@
-.testrow {
-  display: flex;  
-  justify-content: center;
-  padding: 20px;
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
 }
 
-/* Create two unequal columns that floats next to each other */
-.testcolumn {
-  padding: 10px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #fafafa;
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 10px;
 }
 
-.testleft {
-  background-color: aqua;
-  width: 25%;
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
 }
 
-.testright {
-  width: 25%;
-  background-color: blueviolet;
-}
-
-
-/* Clear floats after the columns */
-.testrow:after {
-  content: "";
-  display: table;
-  clear: both;
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 960px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
 }
