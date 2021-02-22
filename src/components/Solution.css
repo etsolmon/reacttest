@@ -1,8 +1,12 @@
 
 .card {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #FFFFFF;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
   padding: 1rem;
+  box-shadow: rgba(170, 170, 170, 0.15) 0px 8px 16px 0px !important;
+  margin-bottom: 40px;
 }
 
 .cards {
@@ -10,6 +14,7 @@
   margin: 0 auto;
   display: grid;
   grid-gap: 10px;
+  padding: 10px;
 }
 
 /* Screen larger than 600px? 2 column */
@@ -20,4 +25,53 @@
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 960px) {
   .cards { grid-template-columns: repeat(4, 1fr); }
+}
+
+.iconcards {
+  
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: rgb(255, 214, 0);
+  border-radius: 0.25rem !important;
+  padding-top: 0.2em;
+  margin-bottom: 10px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+.h2cards {
+  color: rgb(51, 51, 51); 
+  font-size: 14px;
+  text-align: center; 
+  font-weight: bolder;
+  margin: 16px;
+}
+
+.pcards {
+  color: rgb(130, 130, 130); font-size: 14px;
+  text-align: center;
+  padding: 16px;
+}
+
+.ph11 {
+  color: rgb(106, 204, 241);
+  text-align: center;
+  padding: 40px 10px 10px 10px;
+}
+.ph12 {
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 34px;
+  text-align: center;
+  padding: 10px;
+}
+.ph13 {
+  color: rgb(130, 130, 130);
+  text-align: center;
+  padding: 10px 0 40px;
 }

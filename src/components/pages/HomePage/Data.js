@@ -16,13 +16,13 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: 'Биднийг сонгох шалтгаан',
+  headline: 'Яагаад "Cargo Delivery"-ийг сонгох вэ?',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+    'Бид Харилцаа холбооны зохицуулах хорооны "Шуудангийн захиалгад хүргэлтийн үйлчилгээ эрхлэх" тусгай зөвшөөрлийн хүрээнд үйл ажиллагаа явуулдаг бөгөөд 2020 онд харилцагч байгууллагуудын 8,000+ гаруй хүргэлтийг хэрэглэгчдэд шуурхай, найдвартайгаар хүргэж өгсөн туршлагатай хамт олон юм. Мөн манай байгууллага нь хөл хорионы үед ч гэсэн албан ёсны зөвшөөрөлтэйгээр (QR код) хүргэлтийн үйл ажиллагаагаа тасралтгүй явуулж байна.',
   buttonLabel: 'Learn More',
-  imgStart: '',
-  img: 'images/svg-5.svg',
+  imgStart: 'start',
+  img: 'images/home-2.png',
   alt: 'Vault'
 };
 
