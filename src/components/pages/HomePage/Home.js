@@ -15,9 +15,8 @@ function Home() {
       <HeroSection {...homeObjTwo} />
       <Carousel />
       <HeroSection {...homeObjThree} />
-      <Pricing />
       <Solution />
-      <HeroSection {...homeObjFour} />
+
     </>
   );
 }
