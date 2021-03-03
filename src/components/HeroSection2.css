@@ -1,0 +1,55 @@
+ .card2 {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: #212529;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 40px 10px;
+    box-shadow: rgba(170, 170, 170, 0.15) 0px 8px 16px 0px !important;
+    margin: 80px 10px;
+  }
+  
+  .card22 {
+    background-color: #FFF;
+    color: #212529;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 40px 10px;
+    box-shadow: rgba(170, 170, 170, 0.15) 0px 8px 16px 0px !important;
+    margin: 80px 10px;
+  }
+
+  .cards2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px 10px;
+  }
+  
+  /* Screen larger than 600px? 2 column */
+  @media (min-width: 600px) {
+    .cards2 { grid-template-columns: repeat(1, 1fr); }
+  }
+  
+  /* Screen larger than 900px? 3 columns */
+  @media (min-width: 960px) {
+    .cards2 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .ph21 {
+    color: rgb(106, 204, 241);
+    padding: 10px;
+  }
+  .ph22 {
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 24px;
+    padding: 10px;
+  }
+  .ph23 {
+    color: rgb(130, 130, 130);
+    padding: 10px;
+  }

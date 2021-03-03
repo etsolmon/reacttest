@@ -1,9 +1,9 @@
 import React from 'react';
-import './HeroSection.css';
+import './HeroSection2.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-function HeroSection({
+function HeroSection2({
   lightBg,
   topLine,
   lightText,
@@ -17,49 +17,25 @@ function HeroSection({
 }) {
   return (
     <>
-      <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
-      >
-        <div className='container'>
-          <div
-            className='row home__hero-row'
-            style={{
-              display: 'flex',
-              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
-            }}
-          >
-            <div className='col'>
-              <div className='home__hero-text-wrapper'>
-                <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
-                  {headline}
-                </h1>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
-                  {description}
-                </p>
-                <Link to='/sign-up'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    {buttonLabel}
-                  </Button>
-                </Link>
-              </div>
-            </div>
-            <div className='col'>
-              <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className='home__hero-img' />
-              </div>
-            </div>
+      <div class="darkBg">
+        <div class="cards2">
+          <div class="card2">
+              <p class="ph21">Хамтран ажиллах</p>        
+              <p class="ph22">Үйлчилгээний танилцуулга</p>
+              <p class="ph23">Бидэнтэй хамтран ажиллах, хүргэлтийн үйлчилгээний танилцуулгыг дараах холбоосоор татан авна уу</p>
+              <a href='/pricing.pdf' download>Татаж авах</a>
           </div>
+          <div class="card22">
+              <p class="ph21">Холбоо тогтоох</p>        
+              <p class="ph22">Холбоо барих</p>
+              <p class="ph23">Хамтран ажиллах хүсэлтэй бүх хувь хүн болон аж ахуйн нэгжид            бид үргэлж нээлттэй</p>
+              <a href='/pricing.pdf' download>Татаж авах</a>
+          </div>    
+            
         </div>
       </div>
     </>
   );
 }
 
-export default HeroSection;
+export default HeroSection2;

@@ -25,6 +25,7 @@
   flex-basis: 50%;
 }
 
+
 .home__hero-text-wrapper {
   max-width: 540px;
   padding-top: 0;
@@ -111,6 +112,16 @@ img {
   }
 
   .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  
+  .col1 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .col2 {
     max-width: 100%;
     flex-basis: 100%;
   }
